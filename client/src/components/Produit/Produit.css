@@ -1,0 +1,62 @@
+
+.container {
+    height: 100vh
+}
+.cont {
+    
+    display:flex;
+ flex-direction: column;
+    margin-top: 80px;
+    
+    
+}
+.cont1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.btnnn{
+ 
+    margin-right:20px;
+    float: right;
+}
+
+.card {
+    background-color: rgb(116, 98, 98);
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #eee;
+    margin: 20px;
+    
+}
+
+.inner-card {
+    background: rgb(229, 226, 226);
+    padding: 10px;
+    border-radius: 5px
+}
+
+.heart {
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #beb4aa;
+    border-radius: 50%;
+    background-color: #eee
+}
+
+.btn:focus {
+    color: #fff;
+    background-color: #025ce2;
+    border-color: #0257d5;
+    box-shadow: none
+}
+.btn1{
+    margin:2px;
+}
